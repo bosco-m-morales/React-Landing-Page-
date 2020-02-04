@@ -3,9 +3,9 @@ import React from "react";
 //create your first component
 export function Navbar() {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-secondary">
-			<a className="navbar-brand" href="#">
-				Navbar
+		<nav className="navbar navbar-expand-lg navbar-light bg-dark">
+			<a className="navbar-brand text-light" href="#">
+				Bootstrap
 			</a>
 			<button
 				className="navbar-toggler"
@@ -26,17 +26,17 @@ export function Navbar() {
 					</li>
 					<li className="nav-item">
 						<a className="nav-link" href="#">
-							Features
+							About
 						</a>
 					</li>
 					<li className="nav-item">
 						<a className="nav-link" href="#">
-							Pricing
+							Services
 						</a>
 					</li>
 					<li className="nav-item">
 						<a className="nav-link disabled" href="#">
-							Disabled
+							Contact
 						</a>
 					</li>
 				</ul>
